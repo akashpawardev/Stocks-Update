@@ -22,12 +22,11 @@ const fetchStocks = async (n) => {
         });
 
         const stocks = response.data.results.map((stock, index) => {
-            const openPrice = stock.day?.open;
             return {
                 name: stock.name,
                 symbol: stock.ticker,
                 last_updated_utc: stock.last_updated_utc,  
-                openPrice: openPrice !== undefined ? openPrice : Math.floor(Math.random() * 1000) + 50,
+                openPrice: Math.floor(Math.random() * 1000) + 50,
             };
         });
 

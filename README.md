@@ -24,8 +24,11 @@ If you want to run the latest code from git, here's how to get started:
 
 <p>1.Clone the code:</p>
 
-        https://github.com/akashpawar43/epic-games-clone.git
-        cd epic-clone
+```
+    https://github.com/akashpawar43/epic-games-clone.git
+    cd epic-clone
+```
+
 <p>2. cd Server</p>
 
 <p>3. Install dependencies for Server</p>
@@ -61,7 +64,7 @@ npm run dev
 <h2>Project Screenshots:</h2>
 
 1. Login
-<img src="https://github.com/akashpawar43/essentially-task/blob/master/client/public/website1.png" alt="project-screenshot" >
+<img src="https://github.com/akashpawardev/Stocks-Update/blob/master/client/public/website1.png" alt="project-screenshot" >
 
 2. Register
-<img src="https://github.com/akashpawar43/essentially-task/blob/master/client/public/website2.png" alt="project-screenshot" >
+<img src="https://github.com/akashpawardev/Stocks-Update/blob/master/client/public/website2.png" alt="project-screenshot" >

@@ -21,17 +21,17 @@ function App() {
     return () => clearInterval(interval); // Clean up interval on unmount
   }, [inputString]);
 
-  const handleInputChange = (event) => {
-    setInputString(event.target.value);
-  };
-
   const handleSubmit = (event) => {
     event.preventDefault();
     fetchStocks(); // Fetch stocks when the form is submitted
   };
 
+  const handleInputChange = (event) => {
+    setInputString(event.target.value);
+  };
+
   return (
-    <div className="container py-5">
+    <div className="container py-5 ">
       <h1 className="text-center mb-4">Stock Prices</h1>
       <form onSubmit={handleSubmit} className="mb-4">
         <div className="input-group">
